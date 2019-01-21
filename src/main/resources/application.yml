@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: employee-function
+  jpa:
+    hibernate:
+      ddl-auto: create
+      use-new-id-generator-mappings: false
+    show-sql: true
